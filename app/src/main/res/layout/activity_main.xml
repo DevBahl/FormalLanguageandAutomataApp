@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#000839">
 
     <FrameLayout
         android:id="@+id/container"
@@ -15,15 +16,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        app:labelVisibilityMode="unlabeled"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/menu_back"
+        android:elevation="16dp"
+        android:layout_margin="10dp"
+        app:cnb_menuResource="@menu/bottomnav"
+        app:cnb_unselectedColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottomnav" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
