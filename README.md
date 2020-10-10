@@ -1,15 +1,20 @@
-Project- Formal language and Automata
+<h1 align="center">
+  Formal Language and Automata
+</p>
 
-Definition:
-This application is designed with an intent to enable learners to get insight about Formal Language and Automata. 
-The application offers wide range of concepts and topics regarding the subject. 
+> FLA concepts now live on your phone.
 
-Contributors:
-Devansh Taneja RA1811029010033
-Dev Bahl RA1811029010042
-Shrey Sachdeva RA1811029010045
-Nandita Mishra RA1811029010050
+**Load the application**
 
-Submitted  to:
-Dr. Natrajan Parthiban
-Faculty- FLA
+Find the `fla.apk` in the releases tab, download it and run it on your phones.
+
+## License 📜
+
+See the `LICENSE` file for more info.
+
+## Contributors 💥
+
+<p>Devansh Taneja - RA1811029010033</p>
+<p>Dev Bahl       - RA1811029010042 </p>
+<p>Shrey Sachdeva - RA1811029010045 </p>
+<p>Nandita Mishra - RA1811029010050 </p>
