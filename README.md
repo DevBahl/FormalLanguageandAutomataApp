@@ -1,6 +1,6 @@
 <h1 align="center">
   Formal Language and Automata
-</p>
+</h1>
 
 > FLA concepts now live on your phone.
 
